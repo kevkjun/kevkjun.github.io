@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm currently a Master's Candidate in Computer Science at the University of Chicago. Interested in high performance computing and fintech. I spend my days studying, working on projects or chilling with my beautiful dog and wife. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Some blank space for more info.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kevinkjun@gmail.com](mailto:kevinkjun@gmail.com)
