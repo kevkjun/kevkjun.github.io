@@ -13,6 +13,8 @@ When I'm not studying or working on projects, I enjoy film, music, cooking and c
 
 Some blank space for more info.
 
+{% include button.html url="http://www.google.com" %}
+
 ### Contact me
 
 [kevinkjun@gmail.com](mailto:kevinkjun@gmail.com)
