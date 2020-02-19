@@ -1,10 +1,13 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
 
-I'm currently a Master's Candidate in Computer Science at the University of Chicago. Interested in high performance computing and fintech. I spend my days studying, working on projects or chilling with my beautiful wife and dog. 
+I'm a first year Master's student at the University of Chicago interested in databases, high performance computing and fintech. 
+
+I love designing and building things that make processes more efficient.
+
+When I'm not studying or working on projects, I enjoy film, music, cooking and chilling with my beautiful wife and dog. 
 
 ### More Information
 
