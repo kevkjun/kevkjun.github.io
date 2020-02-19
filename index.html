@@ -1,18 +1,18 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="page">
+    <article class="page">
+        I'm a first year Master's student at the University of Chicago interested in databases, high performance computing and fintech. 
+        <br><br>
+        I love designing and building things that make processes more efficient.
+        <br><br>
+        When I'm not studying or working on projects, I enjoy film, music, cooking and chilling with my beautiful wife and dog. 
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h2>More about me</h2>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <h2>Contact me</h2>
+        <a href="kevinkjun@gmail.com">kevinkjun@gmail.com</a>
     </article>
-  {% endfor %}
 </div>

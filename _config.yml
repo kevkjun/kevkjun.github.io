@@ -18,14 +18,14 @@ avatar: https://avatars0.githubusercontent.com/u/42421866?s=460&v=4
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: kevinkjun@gmail.com
   facebook:
   flickr:
   github: kevkjun
-  instagram:
-  linkedin:
+  instagram: 
+  linkedin: kevjun
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  email: kevinkjun@gmail.com
+  rss: feed
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
