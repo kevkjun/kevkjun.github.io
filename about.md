@@ -13,7 +13,7 @@ When I'm not studying or working on projects, I enjoy film, music, cooking and c
 
 Some blank space for more info.
 
-{% include button.html button_name="My Button" button_class="primary" %}
+{% include button.html button_name="Resume" button_class="primary" url="http://www.google.com" %}
 
 ### Contact me
 
