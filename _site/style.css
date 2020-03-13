@@ -344,6 +344,10 @@ footer {
   text-align: center;
 }
 
+.MathJax {
+  font-size: 1.1em !important;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
