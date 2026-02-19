@@ -9,7 +9,7 @@ permalink: /education/
     <h2 style="margin-bottom: 5px;">University of Chicago</h2>
     <p style="margin: 0;">
       <strong>Master of Science in Computer Science</strong> 
-      <span style="float: right; color: #666; font-style: italic;">2019 – 2021 (Expected)</span>
+      <span style="float: right; color: #666; font-style: italic;">2019 – 2021</span>
     </p>
     <p style="margin: 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
   </section>
