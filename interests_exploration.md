@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Interests - Placeholder2
-url: /interests/placeholder2/
-permalink: /interests/placeholder2/
+title: Interests - Exploration
+url: /interests/exploration/
+permalink: /interests/exploration/
 ---
 
 {% include interests_nav.html %}
 
 <article>
-  <p style="color: #666; font-style: italic;">[ Placeholder ]</p>
+  <p style="color: #666; font-style: italic;">[ Add details about travel, reading lists, or new skills you are learning here. ]</p>
 </article>
