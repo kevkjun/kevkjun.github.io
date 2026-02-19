@@ -6,10 +6,45 @@ permalink: /experience/
 
 <article>
   <section class="experience-item">
+    <h2 style="margin-bottom: 5px;">IMC Trading</h2>
+    <p style="margin: 0;">
+      <strong>Software Engineer</strong> 
+      <span style="float: right; color: #666; font-style: italic;">Apr 2022 – present</span>
+    </p>
+    <p style="margin: 5px 0 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
+    <p style="margin-top: 15px;">Exchange Connectivity - Execution</p>
+  </section>
+
+  <hr style="margin: 30px 0;">
+
+  <section class="experience-item">
+    <h2 style="margin-bottom: 5px;">Garden Leave</h2>
+    <p style="margin: 0;">
+      <span style="float: right; color: #666; font-style: italic;">Jan 2022 – Apr 2022</span>
+    </p>
+    <p style="margin: 5px 0 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
+    <p style="margin-top: 15px;">Non-Compete</p>
+  </section>
+
+  <hr style="margin: 30px 0;">
+
+  <section class="experience-item">
+    <h2 style="margin-bottom: 5px;">Wolverine Trading</h2>
+    <p style="margin: 0;">
+      <strong>Software Engineer</strong> 
+      <span style="float: right; color: #666; font-style: italic;">Jan 2021 – Jan 2022</span>
+    </p>
+    <p style="margin: 5px 0 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
+    <p style="margin-top: 15px;">Gateways and Connectivity</p>
+  </section>
+
+  <hr style="margin: 30px 0;">
+
+  <section class="experience-item">
     <h2 style="margin-bottom: 5px;">Wolverine Trading</h2>
     <p style="margin: 0;">
       <strong>Software Engineer Intern</strong> 
-      <span style="float: right; color: #666; font-style: italic;">June 2020 – August 2020</span>
+      <span style="float: right; color: #666; font-style: italic;">June 2020 – Aug 2020</span>
     </p>
     <p style="margin: 5px 0 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
     <p style="margin-top: 15px;">Designed and developed an application to monitor and issue commands to critical machines connecting trade orders to exchanges. Developed the front-end UI in C# and extended the back-end multithreaded, low-latency messaging passing architecture in C++17.</p>

@@ -6,7 +6,7 @@
 
 // Redefine layout variables for precision
 $header-height-desktop: 100px;
-$header-height-mobile: 60px;
+$header-height-mobile: 70px;
 $sidebar-width-desktop: 200px;
 
 * {
@@ -87,7 +87,9 @@ header.masthead {
   color: $gray;
 
   @include mobile {
-    display: none; // Hide subtitle on mobile for extreme compactness
+    font-size: 11px;
+    line-height: 1.2;
+    display: block;
   }
 }
 
