@@ -4,8 +4,8 @@ title: About
 ---
 
 <div class="image-row">
-    <img src="{{ site.baseurl }}/images/profile-photo.jpg" alt="Profile Photo">
-    <img src="{{ site.baseurl }}/images/leah-and-daisy.jpg" alt="Leah and Daisy">
+    <img src="{{ site.baseurl }}/images/profile-photo.jpg" alt="Kevin Jun profile photo">
+    <img src="{{ site.baseurl }}/images/leah-and-daisy.jpg" alt="Kevin's dog Leah and rabbit Daisy">
 </div>
 
 I'm a second year master's student at UChicago interested in high performance computing, distributed systems and fintech. I previously attended Northwestern, majoring in Economics and Political Science.
