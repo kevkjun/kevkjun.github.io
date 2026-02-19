@@ -30,20 +30,6 @@ body {
   width: 100%;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -303,3 +289,106 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+/*********************/
+/* SIDEBAR LAYOUT    */
+/*********************/
+
+* {
+  box-sizing: border-box;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  padding-right: 40px;
+  border-right: 1px solid $lightGray;
+  
+  @include mobile {
+    width: 100%;
+    position: static;
+    padding-right: 0;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-right: none;
+    border-bottom: 1px solid $lightGray;
+  }
+}
+
+.side-nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+  
+  a {
+    color: $gray;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: $helveticaNeue;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: $blue;
+    }
+  }
+  
+  // Optional: style for active link if you want to add it later
+  .active a {
+    color: $black;
+    font-weight: bold;
+  }
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0; // Prevents flex items from overflowing
+  padding-left: 40px;
+  
+  @include mobile {
+    padding-left: 0;
+  }
+
+  // Clean up the image row from index.html
+  .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .column {
+      flex: 1;
+      float: none; // Override the old float
+      width: auto;
+      padding: 0;
+      
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
