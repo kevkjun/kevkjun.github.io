@@ -470,6 +470,12 @@ aside.sidebar {
   font-style: italic;
 }
 
+.section-divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 24px 0;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
