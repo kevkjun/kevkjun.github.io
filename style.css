@@ -476,6 +476,26 @@ aside.sidebar {
   margin: 24px 0;
 }
 
+/* --- WIP --- */
+.wip {
+  text-align: center;
+  padding: 60px 0;
+}
+.wip .wip-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+.wip h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+.wip p {
+  color: #666;
+  font-size: 14px;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
