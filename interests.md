@@ -93,7 +93,7 @@ permalink: /interests/
     </svg>
     <div class="playing-now-meta">
       <div class="project-title">Ukulele</div>
-      <div class="project-description">Learning fingerpicking</div>
+      <div class="project-description">My kid loves it</div>
     </div>
   </div>
 </div>
