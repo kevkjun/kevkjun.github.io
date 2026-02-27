@@ -428,5 +428,28 @@ aside.sidebar {
   margin: 24px 0;
 }
 
+/* --- WIP --- */
+.wip {
+  text-align: center;
+  padding: 60px 0;
+
+  .wip-icon {
+    font-size: 64px;
+    margin-bottom: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: $darkGray;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: $gray;
+    font-size: 14px;
+  }
+}
+
 @import "highlights";
 @import "svg-icons";
