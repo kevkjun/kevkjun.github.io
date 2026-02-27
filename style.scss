@@ -234,5 +234,12 @@ aside.sidebar {
   }
 }
 
+.footer {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid $lightGray;
+}
+
 @import "highlights";
 @import "svg-icons";

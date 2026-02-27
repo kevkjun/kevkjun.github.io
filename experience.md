@@ -12,7 +12,7 @@ permalink: /experience/
       <span style="float: right; color: #666; font-style: italic;">Apr 2022 – present</span>
     </p>
     <p style="margin: 5px 0 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
-    <p style="margin-top: 15px;">Exchange Connectivity - Execution</p>
+    <p style="margin-top: 15px;">I develop low latency execution systems and market data connectivity across OCC, CME and US equity venues.</p>
   </section>
 
   <hr style="margin: 30px 0;">
@@ -35,7 +35,7 @@ permalink: /experience/
       <span style="float: right; color: #666; font-style: italic;">Jan 2021 – Jan 2022</span>
     </p>
     <p style="margin: 5px 0 0; color: #666; font-size: 0.9em;">Chicago, IL</p>
-    <p style="margin-top: 15px;">Gateways and Connectivity</p>
+    <p style="margin-top: 15px;">I worked on trading systems that provided execution services for institutional customers, connecting them to venues like NYSE via FIX protocol.</p>
   </section>
 
   <hr style="margin: 30px 0;">

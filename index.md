@@ -8,11 +8,7 @@ title: About
     <img src="{{ site.baseurl }}/images/leah-and-daisy.jpg" alt="Kevin's dog Leah and rabbit Daisy">
 </div>
 
-I'm a second year master's student at UChicago interested in high performance computing, distributed systems and fintech. I previously attended Northwestern, majoring in Economics and Political Science.
-
-I enjoy designing and building things that make processes more efficient or accessible.
-
-When I'm not studying or working on projects, I enjoy film, music, cooking and chilling with my beautiful wife, dog and rabbit.
+I"m Kevin Jun. I've been a software engineer in the Chicago trading industry for the last 5 years. Before that, I worked in consulting and analytics. I like tech, music, reading and cooking. 
 
 ***
 
