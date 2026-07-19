@@ -40,7 +40,7 @@ title: About
   <div><h2>What I'm interested in now:</h2></div>
   <ul class="interest-list">
     <li><strong>LLMs</strong><span>Claude has been helping out a lot around the house.</span></li>
-    <li><strong>Cooking</strong><span>It's soup season in Chicago, and I've been thinking about getting into sourdough.</span></li>
-    <li><strong>Parenting</strong><span>I'm a human dad and dog dad.</span></li>
+    <li><strong>Cooking</strong><span>I've been making a lot of sourdough recently.</span></li>
+    <li><strong>Parenting</strong><span>I'm a human and dog dad.</span></li>
   </ul>
 </section>
