@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Interests - Pursuits
-url: /interests/
+title: Interests
 permalink: /interests/
 ---
-
-{% include interests_nav.html %}
 
 <section class="interests-board">
   <div class="interest-tile interest-reading">
@@ -46,6 +43,15 @@ permalink: /interests/
         <div class="project-title">Ukulele</div>
         <div class="project-description">My kid loves it</div>
       </div>
+    </div>
+  </div>
+
+  <div class="interest-tile interest-cooking">
+    <p class="interest-kicker">Cooking</p>
+    <div class="cooking-list">
+      <span>Sourdough</span>
+      <span>Cookies</span>
+      <span>Things in the pizza oven</span>
     </div>
   </div>
 </section>

@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Interests - Cooking
+title: Cooking
 url: /interests/cooking/
 permalink: /interests/cooking/
 ---
-
-{% include interests_nav.html %}
 
 <article>
   <p style="color: #666">Sourdough</p>
