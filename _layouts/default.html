@@ -36,7 +36,7 @@
       </div>
     </header>
 
-    <main class="main-content{% if page.url == '/' %} home-main{% endif %}" role="main">
+    <main class="main-content content-{{ page.title | slugify }}{% if page.url == '/' %} home-main{% endif %}" role="main">
         {% unless page.url == '/' %}
         <header class="page-heading">
           <span class="eyebrow">Kevin Jun / {{ page.title }}</span>
