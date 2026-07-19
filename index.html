@@ -65,23 +65,29 @@
         
         <section class="home-hero">
   <div class="hero-copy">
-    <p class="home-intro">I'm Kevin Jun. I've been a software engineer in the Chicago trading industry for the last 5 years. Before that I worked in consulting and analytics. I like tech, music, reading and cooking.</p>
+    <h1>Kevin Jun</h1>
+    <p class="home-intro">Software engineer in Chicago's trading industry, with a background in consulting and analytics. I like tech, music, reading and cooking.</p>
     <div class="hero-actions">
       <a class="button button-primary" href="/experience/">Explore my work <span aria-hidden="true">↗</span></a>
       <a class="button button-quiet" href="https://www.linkedin.com/in/kevjun">Connect on LinkedIn</a>
     </div>
   </div>
   <div class="hero-visual" aria-hidden="true">
-    <div class="visual-grid"></div>
-    <div class="visual-scan"></div>
-    <div class="ray ray-one"></div>
-    <div class="ray ray-two"></div>
-    <div class="ray ray-three"></div>
-    <div class="visual-orb orb-one"></div>
-    <div class="visual-orb orb-two"></div>
-    <div class="visual-orb orb-three"></div>
-    <div class="visual-ring ring-one"></div>
-    <div class="visual-ring ring-two"></div>
+    <svg class="signal-art" viewBox="0 0 620 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="ray-blue" x1="86" y1="54" x2="532" y2="448" gradientUnits="userSpaceOnUse"><stop stop-color="#A7E5FF" stop-opacity="0" /><stop offset=".46" stop-color="#A7E5FF" /><stop offset="1" stop-color="#A7E5FF" stop-opacity="0" /></linearGradient>
+        <linearGradient id="ray-lime" x1="456" y1="42" x2="176" y2="525" gradientUnits="userSpaceOnUse"><stop stop-color="#D5FF63" stop-opacity="0" /><stop offset=".48" stop-color="#D5FF63" /><stop offset="1" stop-color="#D5FF63" stop-opacity="0" /></linearGradient>
+        <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur" /><feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+      </defs>
+      <g class="signal-grid" opacity=".2"><path d="M0 112H620M0 224H620M0 336H620M0 448H620M124 0V560M248 0V560M372 0V560M496 0V560" stroke="white" /></g>
+      <path class="signal-ray ray-blue" d="M-14 102L606 470" stroke="url(#ray-blue)" stroke-width="3" filter="url(#glow)" />
+      <path class="signal-ray ray-lime" d="M548 18L142 552" stroke="url(#ray-lime)" stroke-width="2" filter="url(#glow)" />
+      <path class="signal-route route-one" d="M31 413H176L245 343H356L427 250H588" stroke="#A7E5FF" stroke-width="2" />
+      <path class="signal-route route-two" d="M56 188H166L230 255H344L408 197H559" stroke="#D5FF63" stroke-width="2" />
+      <path class="signal-route route-three" d="M127 497V375L197 305V119" stroke="#fff" stroke-opacity=".5" stroke-width="1" />
+      <g class="signal-nodes" filter="url(#glow)"><circle cx="176" cy="413" r="6" fill="#A7E5FF" /><circle cx="356" cy="343" r="6" fill="#A7E5FF" /><circle cx="427" cy="250" r="7" fill="#D5FF63" /><circle cx="230" cy="255" r="5" fill="#D5FF63" /><circle cx="197" cy="305" r="5" fill="white" /></g>
+      <g class="signal-bars" opacity=".75"><rect x="448" y="335" width="95" height="6" rx="3" fill="#A7E5FF" /><rect x="469" y="351" width="75" height="6" rx="3" fill="#D5FF63" /><rect x="427" y="367" width="116" height="6" rx="3" fill="white" /><rect x="457" y="383" width="86" height="6" rx="3" fill="#A7E5FF" /></g>
+    </svg>
   </div>
 </section>
 
@@ -98,8 +104,6 @@
     <li><strong>Parenting</strong><span>I'm a human dad and dog dad.</span></li>
   </ul>
 </section>
-
-<p class="contact-links"><a href="https://www.linkedin.com/in/kevjun">LinkedIn</a> &bull; <a href="mailto:kevinkjun@gmail.com">Email</a></p>
 
     </main>
 
