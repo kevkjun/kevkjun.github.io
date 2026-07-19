@@ -15,7 +15,8 @@
   <body>
     <header class="masthead">
       <div class="header-container">
-        <div class="avatar">
+        <div class="brand">
+          <div class="avatar">
           <a href="{{ site.baseurl }}/">
             <img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.name }}" width="96" height="96">
           </a>
@@ -24,28 +25,18 @@
           <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
           <p class="site-subtitle">{{ site.description }}</p>
         </div>
+        </div>
+        <nav class="header-nav" aria-label="Primary navigation">
+          <a href="{{ site.baseurl }}/experience/"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Experience</a>
+          <a href="{{ site.baseurl }}/projects/"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a>
+          <a href="{{ site.baseurl }}/education/"{% if page.url == '/education/' %} aria-current="page"{% endif %}>Education</a>
+          <a href="{{ site.baseurl }}/interests/"{% if page.url contains '/interests' %} aria-current="page"{% endif %}>Interests</a>
+          <a class="nav-contact" href="mailto:kevinkjun@gmail.com">Email</a>
+        </nav>
       </div>
     </header>
 
-    <div class="layout-container">
-      <aside class="sidebar">
-        <nav class="side-nav">
-          <span class="nav-label">Explore</span>
-          <ul>
-            <li><a href="{{ site.baseurl }}/experience/"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Experience</a></li>
-            <li><a href="{{ site.baseurl }}/projects/"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a></li>
-            <li><a href="{{ site.baseurl }}/education/"{% if page.url == '/education/' %} aria-current="page"{% endif %}>Education</a></li>
-            <li><a href="{{ site.baseurl }}/interests/"{% if page.url contains '/interests' %} aria-current="page"{% endif %}>Interests</a></li>
-            <li><a href="{{ site.baseurl }}/resume/"{% if page.url == '/resume/' %} aria-current="page"{% endif %}>Resume</a></li>
-          </ul>
-        </nav>
-        <div class="sidebar-contact">
-          <a href="https://www.linkedin.com/in/kevjun">LinkedIn</a>
-          <a href="mailto:kevinkjun@gmail.com">Email</a>
-        </div>
-      </aside>
-
-      <main class="main-content" role="main">
+    <main class="main-content{% if page.url == '/' %} home-main{% endif %}" role="main">
         {% unless page.url == '/' %}
         <header class="page-heading">
           <span class="eyebrow">Kevin Jun / {{ page.title }}</span>
@@ -53,8 +44,7 @@
         </header>
         {% endunless %}
         {{ content }}
-      </main>
-    </div>
+    </main>
 
     {% include analytics.html %}
   </body>
