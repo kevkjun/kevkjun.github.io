@@ -31,6 +31,7 @@
     <meta property="twitter:title" content="Projects" />
     
     <title>Projects – Kevin Jun</title>
+    <link rel="preload" href="/images/profile-photo.jpg" as="image" type="image/jpeg" />
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Kevin Jun - Software Engineer @ IMC Trading" href="/feed.xml" />
     
@@ -41,7 +42,7 @@
       <div class="header-container">
         <div class="avatar">
           <a href="/">
-            <img src="https://avatars0.githubusercontent.com/u/42421866?s=460&v=4" alt="Kevin Jun">
+            <img src="/images/profile-photo.jpg" alt="Kevin Jun" width="96" height="96">
           </a>
         </div>
         <div class="site-title">
@@ -54,17 +55,28 @@
     <div class="layout-container">
       <aside class="sidebar">
         <nav class="side-nav">
+          <span class="nav-label">Explore</span>
           <ul>
             <li><a href="/experience/">Experience</a></li>
-            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/projects/" aria-current="page">Projects</a></li>
             <li><a href="/education/">Education</a></li>
             <li><a href="/interests/">Interests</a></li>
             <li><a href="/resume/">Resume</a></li>
           </ul>
         </nav>
+        <div class="sidebar-contact">
+          <a href="https://www.linkedin.com/in/kevjun">LinkedIn</a>
+          <a href="mailto:kevinkjun@gmail.com">Email</a>
+        </div>
       </aside>
 
       <main class="main-content" role="main">
+        
+        <header class="page-heading">
+          <span class="eyebrow">Kevin Jun / Projects</span>
+          <h1>Projects</h1>
+        </header>
+        
         <article>
   <section class="project-item">
     <h2 style="margin-bottom: 5px;">Raft Consensus Algorithm</h2>
