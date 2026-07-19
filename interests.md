@@ -16,40 +16,20 @@ permalink: /interests/
     <span>Reading Now</span>
   </div>
   <div class="reading-now-books">
-    <div class="reading-now-book" data-isbn="0143136879" data-title="Diary of a Void" data-author="Emi Yagi"></div>
-    <div class="reading-now-book" data-isbn="1683964446" data-title="Crisis Zone" data-author="Simon Hanselmann"></div>
+    <div class="reading-now-book">
+      <div class="reading-now-meta">
+        <div class="book-title">Diary of a Void</div>
+        <div class="book-author">Emi Yagi</div>
+      </div>
+    </div>
+    <div class="reading-now-book">
+      <div class="reading-now-meta">
+        <div class="book-title">Crisis Zone</div>
+        <div class="book-author">Simon Hanselmann</div>
+      </div>
+    </div>
   </div>
 </div>
-
-<script>
-  document.querySelectorAll('.reading-now-book').forEach(function(book) {
-    const isbn = book.dataset.isbn;
-    const title = book.dataset.title;
-    const author = book.dataset.author;
-    const src = `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`;
-
-    const img = new Image();
-    img.onload = function() {
-      if (img.width > 1) {
-        book.innerHTML = `
-          <img src="${src}" alt="${title} cover">
-          <div class="reading-now-meta">
-            <div class="book-title">${title}</div>
-            <div class="book-author">${author}</div>
-          </div>
-        `;
-      } else {
-        book.innerHTML = `
-          <div class="reading-now-meta">
-            <div class="book-title">${title}</div>
-            <div class="book-author">${author}</div>
-          </div>
-        `;
-      }
-    };
-    img.src = src;
-  });
-</script>
 
 <hr class="section-divider">
 
@@ -79,7 +59,7 @@ permalink: /interests/
   </div>
 
   <div class="playing-now-section-label">Listening</div>
-  <div class="playing-now-book" id="album-block">
+  <div class="playing-now-book">
     <div class="playing-now-meta">
       <div class="project-title">The Money Store</div>
       <div class="project-description">Death Grips</div>
@@ -97,26 +77,3 @@ permalink: /interests/
     </div>
   </div>
 </div>
-
-<script>
-  const apiKey = "{{ site.lastfm_api_key }}";
-  const artist = "Death Grips";
-  const album = "The Money Store";
-
-  fetch(`https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=${apiKey}&artist=${encodeURIComponent(artist)}&album=${encodeURIComponent(album)}&format=json`)
-    .then(r => r.json())
-    .then(data => {
-      const images = data.album && data.album.image;
-      const img = images && images.find(i => i.size === "large");
-      if (img && img["#text"]) {
-        const block = document.getElementById("album-block");
-        block.innerHTML = `
-          <img src="${img["#text"]}" alt="${album} cover" style="width: 60px; border-radius: 3px; box-shadow: 2px 3px 8px rgba(0,0,0,0.15); flex-shrink: 0;">
-          <div class="playing-now-meta">
-            <div class="project-title">${album}</div>
-            <div class="project-description">${artist}</div>
-          </div>
-        `;
-      }
-    });
-</script>
